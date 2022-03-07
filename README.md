@@ -21,7 +21,7 @@ Enable the Web Browser plugin from Unreal engine
 Go to the root of the project and inside the Plugins folder open a terminal
 Note: If you don't have a Plugins floder you can created
 
-    git submodule add https://github.com/dvanegas96/stardust-login.git
+    git submodule add https://github.com/Stardust-Platform/stardust-unreal-login.git
 
 Then right click the unreal project file and click Generate visual studio project file
 
