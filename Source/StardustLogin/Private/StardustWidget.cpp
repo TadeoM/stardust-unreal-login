@@ -96,7 +96,7 @@ void UStardustWidget::HandleLoginUrlChange() {
 
 					TSharedPtr<FJsonObject> RequestObj = MakeShareable(new FJsonObject);
 					RequestObj->SetStringField(ParameterName, ParameterValue);
-					RequestObj->SetStringField("custom:gameId", GameId);
+					RequestObj->SetStringField("gameId", GameId);
 
 					FString RequestBody;
 					TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&RequestBody);
