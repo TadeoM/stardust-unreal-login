@@ -65,6 +65,7 @@ public:
 	void SaveToken(FString AToken, FString RToken);
 	void LoadToken();
 
+	void GetSub(FString idToken);
 private:
 	FHttpModule* HttpModule;
 
